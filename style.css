@@ -1,0 +1,88 @@
+* { 
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box; 
+}
+
+.main{
+    padding: 15% 5% 15% 5%;
+}
+
+h1{
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.infos h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.infos p{
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.profiles{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2%;
+    grid-row-gap: 20px;
+}
+
+.profile:nth-child(2n){
+    margin-top: 50px;
+}
+
+.profile:nth-child(2n+1){
+    margin-bottom: 50px;
+}
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+}
+
+.profile img{
+    max-width: 138px;
+    height: auto;
+}
+
+.job{
+    font-family: "PT Serif";
+    font-size: 10px;
+    font-weight: 400;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    width: 18px;
+    height: 140px;
+}
+
+.name{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer p{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    color: #A9A9A9;
+}
